@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-color: rgb(255, 92, 92);
+    color: aliceblue;
+    width: 100vw;
+  }
+  
+  .center-div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 65px;
+  }
+  
+  .img-container {
+    text-align: right;
+    margin-left: 80%;
+    z-index: 2;
+  }
+  
+  .img-container img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+  }
+  
+  .horizontal-line {
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+    top: 40%;
+    position: absolute;
+    border: none;
+  }
+  
+  h2 {
+    font-size: 34px;
+  }
+  
+  .vertical-line {
+    height: 100vh;
+    width: 100px;
+    background-color: aliceblue;
+    position: fixed;
+    top: 0;
+    left: 20%;
+    border: none;
+}
+  
+  .description {
+    font-size: 30px;
+    width: 1000px;
+    z-index: 2;
+    font-weight: bolder;
+    color: black;
+  }
+  
+  .form-group {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  #group{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+  }
+  
+  .item {
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(255, 92, 92);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: black;
+    font-size: 22px;
+    z-index: 2;
+    border: 1px solid black;
+  }
+  .item:hover{
+    background-color: aliceblue;
+  }
+
+
+  .item img {
+    width: 200px;
+  }
+  
+  .item a {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+  }
+  
+  .center-div2{
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   width: 100%; 
+  }
+
+  .hr-munir{
+    width: 100%;
+    height: 1px;
+    background-color: aliceblue;
+    top: 43%;
+    position: absolute;
+    border: none;
+  }
+
+  .imgc{
+    border-radius: 30%;
+  }
+
+  .imgs{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+.links{
+    font-size: 25px;
+}
+
+.center-div3{
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   width: 100%; 
+}
+
+.center-div4{
+   text-align: center;
+   font-size: 18px;
+}
+.textlazer{
+  width: 400px;
+  height: auto;
+}
+
+.textlazer{
+  position: relative;
+  text-align: center;
+}
+.imgct{
+    text-align: center;
+}
+
+.test{
+    text-align: center;
+}
+
+.pao{
+    text-align: center;
+}
+
+.test2{
+    text-align: center;
+}
+.test3{
+    text-align: center;
+}
+
+.branco{
+    text-align: center;
+}
+
+.test4{
+    text-align: center;
+}
+
+.peixe{
+    text-align: center;
+}
+
+.test5{
+    text-align: center;
+}
+
+.carne{
+    text-align: center;
+}
+
+.links2{
+    font-size: 25px;
+}
+
+.lazeres{
+    text-align: center;
+    font-size: 22px;
+}
+
+.test1-lazer{
+    text-align: center;
+}
+
+.pt1{
+    text-align: center;
+}
+
+.test2-lazer{
+    text-align: center;
+}
+
+.pt2{
+    text-align: center;
+}
+
+.test3-lazer{
+    text-align: center;
+}
+
+.pt3{
+    text-align: center;
+}
+
+.index-voltar{
+    font-size: 24px;
+}
+
+.esportes{
+    text-align: center;
+}
+
+.fut{
+    text-align: center;
+}
+
+.mais{
+    text-align: center;
+}
+
+.praticado{
+    text-align: center;
+}
+
+.fut2{
+    text-align: center;
+}
+
+.lala{
+    font-size: 22px;
+}
+
+.princi{
+    text-align: center;
+}
+
+.tutu1{
+    text-align: center;
+}
+
+.casta{
+    text-align: center;
+}
+
+.tutu2{
+    text-align: center;
+}
+
+.casta2{
+    text-align: center;
+}
+
+.tutu3{
+    text-align: center;
+}
+
+.sereia{
+    text-align: center;
+}
+
+.vv{
+    font-size: 24px;
+}
+
+.danca{
+    text-align: center;
+    font-size: 16px;
+}
+
+.lalavoltar{
+    font-size: 24px;
+}
+
+.item2{
+  width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(255, 92, 92);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: black;
+    font-size: 22px;
+    z-index: 2;
+    border: 1px solid black; 
+
+}
+
+.item2 img{
+    width: 200px;
+}
+
+.item2 a {
+  color: aliceblue;
+  font-weight: 800;
+}
+  
+
+.form2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+    padding: 15px;
+  }
+
+
+.voltar{
+  width: 50%;
+  margin-left: -50%;
+
+}
+ 
+#indexVoltar{
+   margin-top: 25%;
+   color: black;
+}
+
+#indexVoltar:hover{
+    color: antiquewhite;
+}
+
+.jp{
+  text-align: center;
+}
+
+#historia{
+  margin-top: -5%;
+}
